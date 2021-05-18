@@ -1,0 +1,58 @@
+#divList 
+{
+   background-color: beige;
+   margin: 20px;
+   padding: 40px;
+}
+
+.lst 
+{
+    background-color: crimson;
+    counter-reset: cnt 0;
+    list-style-type: none;
+    margin: 5px;
+}
+.lst li 
+{
+    counter-increment: cnt;
+    font-size: 22px;
+    margin: 15px;
+    background: coral;
+    padding: 3px;
+    padding-top: 10px;
+}
+.lst li span 
+{
+    padding: 4px;
+    text-decoration: none;
+}
+li:before 
+{
+    content: "" counter(cnt) ". ";
+}  
+
+/* .lst {
+    background-color: lightcoral;
+    list-style-type: none;
+    counter-reset: cnt 0;
+    padding: 5px;
+}
+
+.lst li {
+    counter-increment: cnt;
+    font-size: 22px;
+    margin: 5px;
+    background: coral;
+    padding: 9px;
+}
+
+.lst li span 
+{
+    background-color: brown;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.lst li::before {
+    content: "№" counter(cnt) ". ";
+} */
