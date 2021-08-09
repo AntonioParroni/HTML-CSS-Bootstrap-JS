@@ -1,0 +1,156 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+form {
+	margin: 40px;
+	padding: 20px;
+	padding-bottom: 60px;
+	padding-top: 0px;
+	box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.flex-1 {
+	display: flex;
+	justify-content: space-between;
+}
+
+.flex-1>div {
+	display: flex;
+	align-content: flex-start;
+	flex-wrap: wrap;
+	flex-basis: 48%;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select {
+	height: 30px;
+	padding: 0;
+	margin: 0;
+	box-sizing: padding-box;
+	padding-left: 10px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+input:valid,
+select {
+	outline: none;
+	border: none;
+	border-bottom: 2px solid gray;
+
+}
+
+input[type="text"],
+input[type="email"] {
+	flex-grow: 1;
+}
+
+.line-breaking {
+	flex-basis: 100%;
+	flex-shrink: 0;
+	width: 10px;
+}
+
+.rasporcka {
+	width: 20px;
+}
+
+input[type="password"],
+.flex-2>input,
+select {
+	width: 2px;
+	flex-grow: 1;
+}
+
+
+
+
+h2 {
+	flex-basis: 100%;
+	margin: 0;
+	padding: 0;
+	height: 30px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	margin-top: 10px;
+}
+
+label {
+	display: block;
+}
+
+label:nth-of-type(1) {
+	margin-top: 30px;
+}
+
+
+hr {
+	margin: 40px 0;
+}
+
+button {
+	width: 120px;
+	height: 30px;
+	background-color: #008B8B;
+	border: none;
+	color: #fff;
+	float: right;
+}
+
+
+.icon-1,
+.icon-2,
+.icon-3 {
+	width: 30px;
+	height: 30px;
+	background-size: cover;
+	margin-right: 10px;
+	padding: 1px;
+	flex-shrink: 0;
+}
+
+.icon-1 {
+	background-image: url('https://images.vfl.ru/ii/1608209196/8a1b1edc/32689700.png');
+
+}
+
+.icon-2 {
+	background-image: url('https://images.vfl.ru/ii/1608209196/437aaf45/32689698.png');
+
+}
+
+.icon-3 {
+	background-image: url('https://images.vfl.ru/ii/1608209196/3ec6dae8/32689699.png');
+}
+
+@media(max-width: 900px) {
+	.flex-1 {
+		flex-direction: column;
+	}
+
+	.flex-1>div {
+		flex-basis: 100%;
+	}
+
+	h2:nth-child {
+		margin-top: 40px;
+	}
+
+}
+
+@media(max-width: 600px) {
+	.rasporcka {
+		flex-basis: 100%;
+	}
+
+	.flex-1>div>input[type="password"]:last-child {
+		margin-left: 40px;
+
+	}
+
+}

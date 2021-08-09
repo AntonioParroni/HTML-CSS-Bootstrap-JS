@@ -1,0 +1,134 @@
+body{
+    display: grid;
+}
+#mainFrame{
+    background: lightgreen;
+    margin:5vh;
+    display: grid;
+    grid-template-areas: 
+    "picture picture picture"
+    "uploadingStatus uploadingStatus uploadingStatus"
+    "videoTitle videoTitle videoTitle"
+    "videoDescription videoDescription videoDescription"
+    "button button button";
+    grid-template-rows: 60px 1fr 60px;
+    grid-template-columns: 20% 1fr 15%;
+    gap: 2vh;
+    padding: .5em;
+    width: 500px;
+}
+
+#picture{
+    grid-area: picture;
+    text-align: center;
+    justify-content: center;
+    padding: 3vh;
+    background-size: cover;
+}
+
+#uploadingStatus {
+    grid-area: uploadingStatus;
+    display: flex;
+    margin-top: 100px;
+    border: 1px dashed black;
+    padding:none;
+}
+
+#uploading{
+    background-color: gray;
+    grid-area: uploading;
+    padding-right: 20px;
+    padding-left: 10px;
+
+}
+
+#timeRemaining {
+    background-color: white;
+    grid-area: timeRemaining;
+    padding-right: 20px;
+    padding-left: 135px;
+}
+
+#videoTitle{
+    grid-area: videoTitle;
+    font-weight: bold;
+}
+
+#videoDescription
+{
+    grid-area: videoDescription;
+}
+
+#button{
+    grid-area: button;
+    background-color: lightblue;
+}
+
+
+/* #grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 2vh;
+}
+
+#grid > div {
+    font-size: 5vh;
+    padding: .5em;
+    background: gold;
+    text-align: center;
+} */
+/* 
+body {
+    display: grid;
+    grid-template-areas: 
+    "nav header header"
+    "nav article ads"
+    "nav footer ads";
+
+    grid-template-rows: 60px 1fr 60px;
+    grid-template-columns: 20% 1fr 15%;
+    gap: 10px;
+    height: 100vh;
+    margin: 0;
+}
+
+header,footer,article, nav, div {
+    padding: 20px;
+    background: lightgreen;
+}
+
+#pageHeader {
+    grid-area: header;
+}
+
+#pageFooter {
+    grid-area: footer;
+}
+
+#mainArticle {
+    grid-area: article;
+}
+
+#mainNav {
+    grid-area: nav;
+}
+
+#siteAds {
+    grid-area: ads;
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        height: auto;
+        grid-template-areas: 
+        "header header"
+        "nav nav"
+        "article ads"
+        "footer footer"
+       ;
+    
+        grid-template-rows: 60px 1fr 1fr 60px;
+        grid-template-columns: 1fr 1fr;
+    }
+} */

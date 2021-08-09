@@ -1,0 +1,46 @@
+#divList 
+{
+   background-color: azure;
+   margin: 20px;
+   padding: 40px;
+}
+
+.lst 
+{
+    list-style-type: none;
+}
+.lst li 
+{
+    font-size: 22px;
+    padding: 5px;
+}
+.lst li span 
+{
+    padding: 4px;
+    text-decoration: none;
+}
+li:before 
+{
+    content: url(icons/unchecked_16.png);
+}  
+li::after 
+{
+   content: "❌" ;
+} 
+li:nth-child(even)
+{
+    background: rgb(168, 192, 212);
+}
+li:nth-child(odd)
+{
+    background:rgb(157, 165, 172);
+}
+li:hover::before
+{
+    content: url(icons/checked_16.png);
+}
+.lst li span:hover 
+{
+    text-decoration: line-through !important;
+}
+ 

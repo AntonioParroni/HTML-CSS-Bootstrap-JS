@@ -1,0 +1,22 @@
+body{
+    background: azure;
+}
+h2{
+    margin-top: 100px;
+}
+h3{
+    font-weight:normal;
+}
+.descriptionSpan
+{
+    color: gray;
+}
+.synonymsSpan
+{
+    color: blue;
+}
+.synonymsSpan::before
+{
+    content: "synonyms: ";
+    color:black;
+}

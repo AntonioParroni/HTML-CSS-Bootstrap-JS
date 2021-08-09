@@ -1,0 +1,84 @@
+body {
+	display: flex;
+	justify-content: center;
+	color: gray;
+	padding: 10vh;
+	font-family: Arial, sans-serif;
+}
+.forma {
+	background-color: #9FCDCD;
+	border-radius: 15px;
+	width: 530px;
+	height: 360px;
+	background-image: url('https://images.vfl.ru/ii/1607787544/b078803b/32638211.png');
+	background-repeat: no-repeat;
+	background-size: 250px;
+	background-position: 350px 160px;
+}
+
+form {
+	display: flex;
+	flex-wrap: wrap;
+	width: 320px;
+	padding: 0 20px;
+}
+p {
+	background-color: #DB6423;
+	position: relative;
+	left: -30px;
+	color: white;
+	height: 40px;
+	line-height: 40px;
+	width: 400px;
+	padding-left: 60px;
+}
+.button-1 {
+	width: 250px;
+	height: 35px;
+}
+
+.button-2,
+.button-3 {
+	height: 35px;
+	flex-basis: auto;
+	margin-right: 10px;
+	padding-bottom: 0;
+	padding: 0;
+}
+.button-2 {
+	width: 95px;
+	padding-top: 10px;
+}
+
+.button-3 {
+	width: 90px;
+	padding-left: 5px;
+}
+label:nth-of-type(5),
+input:nth-of-type(5){
+	margin-right: 0px;
+	width: 100px;
+}
+
+input {
+	display: block;
+	border: none;
+	border-bottom: 1px solid gray;
+	flex-basis: 300px;
+	padding-left: 10px;
+	background-color: #A9D2D2;
+}
+label {
+	display: block;
+	flex-basis: 200px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+input:valid {
+	color: gray;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid gray;
+}
+

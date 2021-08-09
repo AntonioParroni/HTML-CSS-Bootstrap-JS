@@ -1,0 +1,60 @@
+body{
+  background-color: #014242;
+}
+
+#wrapper{
+  margin: 50px;
+}
+
+.navigation{
+  color: gray;
+}
+
+.mainContent{
+  color: white;
+  font: bold;
+  font-size: 35px;
+}
+
+.infoPanel > span{
+  display: flex;
+}
+
+.infoPanel > span > img{
+  height: 50px;
+  width: 50px;
+}
+
+.infoPanel > span > div  {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#desc{
+  color: gray;
+}
+#info{
+  color: white;
+}
+
+
+@media screen and (max-width: 600px) {
+  
+  .infoPanel > span{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #authorPanel{
+    order: 3;
+  }
+  #commentsPanel{
+    order: 4;
+  }
+  #updatePanel{
+    order: 5;
+  }
+  #publishedPanel{
+    order: 2;
+  }
+}

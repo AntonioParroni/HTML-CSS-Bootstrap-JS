@@ -1,0 +1,32 @@
+.menu li:hover {
+    border: none;
+    border-top: 1px solid black;
+    top: 5px;
+} 
+.menu li a {
+    color:  rgb(74, 71, 243);
+    display: block;
+    font-family: sans-serif;
+    text-decoration: none;
+   
+}
+div {
+    font-size: 30px;
+}
+.lst {
+    background-color: lightcoral;
+    list-style-type: none;
+    counter-reset: cnt 10;
+    padding: 0;
+}
+
+.lst li {
+    counter-increment: cnt;
+    font-size: 22px;
+    margin: 5px;
+    background-color: lightseagreen;
+}
+
+.lst li::before {
+    content: "№" counter(cnt) ". ";
+}

@@ -1,0 +1,80 @@
+.kv {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    margin: auto;
+    /* display: flex; */
+}
+
+.kv div {
+    width: 100px;
+    height: 100px;
+}
+
+.k1 {
+    position: relative;
+    z-index: -1;
+    background: gold;
+}
+.k2 {
+    position: absolute;
+    left: -20px;
+    top: 10px;
+    background: blue;
+}
+.k3 {
+  
+    background: rebeccapurple;
+}
+/* 
+#reklama {
+    background: black;
+    width: 200px;
+    height: 100px;
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    color: white;
+} */
+
+
+
+/* #reklama {
+    background: black;
+    width: 200px;
+    height: 100px;
+    position: sticky;
+    right: 10px;
+    top: 50px;
+    color: white;
+}
+#content {
+    height: 1500px;
+    background: lightblue; */
+/* } */
+
+
+input[type="text"] {
+    border: 2px solid red;
+}
+
+#name:valid {
+    background: lightgreen;
+}
+
+#name:invalid {
+    background: lightcoral;
+}
+
+#submit {
+    border: none;
+    width: 300px;
+    height: 40px;
+    background: lime;
+    cursor: pointer;
+}
+
+#submit:hover {
+    box-shadow: 5px 5px 5px black;
+}

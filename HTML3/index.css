@@ -1,0 +1,32 @@
+body {
+    background-color: #dbdbdb;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  div>div {
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 200px;
+    height: 205px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 20px;
+    margin-right: 20px;
+  
+  }
+  
+  .flex {
+    display: flex;
+    color: #0b0b0b;
+    flex-wrap: wrap;
+  
+  }
+  
+  
+  h2 {
+    text-align: center;
+  }
+  

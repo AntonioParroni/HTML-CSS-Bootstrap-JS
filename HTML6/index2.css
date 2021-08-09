@@ -1,0 +1,75 @@
+body {
+	background-color: #F5F5F4;
+	display: flex;
+	justify-content: center;
+	font-family: Arial, sans-serif;
+}
+
+main {
+	display: grid;
+	grid-template-columns: 160px 370px 180px;
+	grid-template-rows: repeat(8, 70px);
+	grid-column-gap: 10px;
+	grid-row-gap: 10px;
+	margin-left: 30px;
+}
+
+.anie {
+	width: 160px;
+	height: 70px;
+	background-image: url('http://images.vfl.ru/ii/1606999322/5a2c4f65/32534722.png');
+	background-repeat: no-repeat;
+	grid-column-start: 1;
+	display: flex;
+	align-items: center;
+	background-position: right;
+}
+
+.anie span {
+	text-align: end;
+	flex-basis: 90px;
+}
+
+.anie-mess {
+	width: 370px;
+	height: 70px;
+	background-color: #FFB6C1;
+	grid-column-start: 2;
+	display: flex;
+	align-items: center;
+	box-sizing: border-box;
+	padding: 0 10px;
+	border-radius: 10px;
+	border-bottom-left-radius: 0;
+
+}
+
+.jack {
+	width: 180px;
+	height: 70px;
+	background-image: url('http://images.vfl.ru/ii/1606999199/5cd8f689/32534665.png');
+	background-repeat: no-repeat;
+	grid-column-start: 3;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+
+}
+
+.jack span {
+	text-align: end;
+	flex-basis: 110px;
+}
+
+.jack-mess {
+	width: 370px;
+	height: 70px;
+	background-color: #ADD8E6;
+	grid-column-start: 2;
+	display: flex;
+	align-items: center;
+	box-sizing: border-box;
+	padding: 0 10px;
+	border-radius: 15px;
+	border-bottom-right-radius: 0;
+}

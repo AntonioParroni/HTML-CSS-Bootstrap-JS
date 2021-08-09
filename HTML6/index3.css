@@ -1,0 +1,111 @@
+body {
+	background-color: #019E9E;
+	font-family: 'Roboto', sans-serif;
+}
+
+.hat {
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+	background-color: #008B8B;
+	height: 50px;
+	margin: 0;
+	line-height: 50px;
+	padding-left: 40px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+.flex-1 {
+	display: flex;
+	margin-top: 65px;
+}
+
+.flex-2 {
+	background-color: #DCDCDC;
+	width: auto;
+	min-width: 300px;
+	max-width: 400px;
+	height: 480px;
+	margin-right: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	overflow: auto;
+
+}
+
+.flex-3 {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #F5F5F5;
+	margin-bottom: 8px;
+	padding: 0 10px;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+
+.text {
+	flex-basis: 100%;
+	flex-shrink: 0;
+}
+
+.point,
+.check,
+.clip {
+	margin-top: 10px;
+	margin-right: 2px;
+	flex-grow: 1;
+	flex-shrink: 0;
+}
+
+.msg {
+	margin-top: 10px;
+	flex-grow: 6;
+	flex-shrink: 0;
+}
+
+.avatar-1,
+.avatar-2,
+.avatar-3,
+.avatar-4 {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-y: -6px;
+	width: 40px;
+	height: 40px;
+
+}
+
+.avatar-1 {
+	background-image: url('https://images.vfl.ru/ii/1607516892/c1daa740/32603887.png');
+}
+
+.avatar-2 {
+	background-image: url('https://images.vfl.ru/ii/1607599416/99c7a9e8/32614420.png');
+}
+
+.avatar-3 {
+	background-image: url('https://images.vfl.ru/ii/1607599499/13b62ec0/32614439.png');
+}
+
+.avatar-4 {
+	background-image: url('https://images.vfl.ru/ii/1607599550/4736a799/32614441.png');
+}
+
+img {
+	width: 17px;
+	height: 17px;
+	padding-right: 5px;
+}
+
+h3 {
+	margin: 10px;
+	margin-top: 20px;
+	margin-left: 0;
+	font-size: 15px;
+}
+

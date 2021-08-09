@@ -1,0 +1,71 @@
+/* div {
+    text-align: center;
+    font-size: 3em;
+    margin: 5px;
+}
+
+#header {
+    color: white;
+    height: 200px;
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/webb-dark.png");
+}
+
+
+#footer {
+    color: white;
+    height: 200px;
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/webb-dark.png");
+
+}
+
+#nav {
+    height: 600px;
+    background-color: gold;
+    float: left;
+    width: 25%;
+}
+
+#main {
+    height: 600px;
+    background-color: lightseagreen;
+    float: right;
+    width: 70%;
+}
+
+#clear {
+    clear: both;
+} */
+
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row-reverse; */
+    justify-content: space-between;
+    /* flex-direction: column; */
+}
+
+.card {
+    margin: 10px;
+    width: 250px;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 15px black;
+}
+
+.card .info {
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.card .photo {
+    margin: auto;
+    width: 200px;
+}
+
+.card .photo img {
+    width: 100%;
+}
+

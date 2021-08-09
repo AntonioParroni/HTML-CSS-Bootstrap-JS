@@ -1,0 +1,44 @@
+body{
+  background-color: darkcyan;
+}
+#footer{
+  color: aquamarine;
+  display: flex;
+  justify-content: center;
+}
+#firstCollum{
+  color: antiquewhite;
+  margin-right: 100px;
+}
+#secondCollum{
+  color: antiquewhite;
+  justify-content: center;
+}
+#icons{
+  margin-left: 80px;
+  float: right;
+  display: flex; 
+  align-items: center;
+}
+
+#fb{
+  margin-right: 20px;
+}
+
+#insta{
+  margin-right: 20px;
+}
+
+#fb:hover{
+  content: url(images/fb.png);
+}
+#insta:hover{
+  content: url(images/insta.png);
+}
+#youtube:hover{
+  content: url(images/youtube.png);
+}
+
+#copyrights{
+  text-align: center;
+}
